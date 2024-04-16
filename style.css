@@ -4,3 +4,6 @@
     --botao-azul: #0059ff;
     --cor-de-fundo: #00030C;
 }
+.principal {
+    background-image: url("img/Background.png");
+}
