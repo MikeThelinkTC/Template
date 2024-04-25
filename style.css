@@ -4,6 +4,7 @@
     --botao-azul: #0059ff;
     --cor-de-fundo: #00030C;
 }
+
 .principal {
     background-image: url("img/Background.png");
 }
@@ -11,15 +12,31 @@ body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
 }
+
 * {
     margin: 0;
     padding: 0;
 }
+
 .container {
     height: 100vh;
 }
+
 .principal {
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+.container__botao {
+    background-color: var(--botao-amarelo);
+    border-radius: 5px;
+    padding: 2em;
+    color: var(--branco-principal);
+    display: block;
+    .container {
+        height: 100vh;
+        display: grid;
+    }
+}
+
