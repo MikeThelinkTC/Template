@@ -1,8 +1,16 @@
-:root {
-    --branco-principal: #ac2402;
-    --cinza-secundario: #ffae00;
-    --botao-azul: #0059ff;
-    --cor-de-fundo: #00030C;
+:root{
+--branco-principal: #FFFFFF;
+--cinza-secundario: #c0c0c0;
+--botao-vermelho:  #ff0000;
+--cor-de-fundo: #000000;
+}
+
+
+
+
+
+
+
 }
 
 .principal {
